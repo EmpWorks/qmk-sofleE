@@ -3,9 +3,9 @@ manifest:
     - name: EmpWorks
       url-base: https://github.com/EmpWorks
   projects:
-    - name: zmk
+    - name: zmk-lpm009m360a-driver
       remote: EmpWorks
-      revision: remap-with-mouse
-      import: app/west.yml
+      revision: master
+      
   self:
     path: config
