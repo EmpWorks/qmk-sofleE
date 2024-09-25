@@ -38,9 +38,7 @@
             , <&gpio0  9 GPIO_ACTIVE_HIGH>
             ;
     };
-&left_encoder {
-    status = "okay";
-};
+
 
     //leds {
      //   compatible = "gpio-leds";
@@ -141,4 +139,7 @@
 
         color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
     };
+};
+&left_encoder {
+    status = "okay";
 };
