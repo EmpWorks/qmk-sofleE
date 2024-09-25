@@ -6,6 +6,6 @@ manifest:
     - name: zmk-lpm009m360a-driver
       remote: EmpWorks
       revision: master
-      
+      import: app/west.yml
   self:
     path: config
