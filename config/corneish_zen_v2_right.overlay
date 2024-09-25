@@ -151,3 +151,6 @@
         tcon = <0x22>;
     };
 };
+&right_encoder {
+    status = "okay";
+};
