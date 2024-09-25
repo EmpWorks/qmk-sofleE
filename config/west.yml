@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: EmpWorks
+      url-base: https://github.com/EmpWorks
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: EmpWorks
+      revision: remap-with-mouse
       import: app/west.yml
   self:
     path: config
